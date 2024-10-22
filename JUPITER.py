@@ -9,7 +9,7 @@ BINARY_PATH = "./JUPITER"
 process = None
 target_ip = None
 target_port = None
-attack_time = 400  # Default time
+attack_time = 4000  # Default time
 threads = 25  # Default thread count
 
 # Start command: Show Attack button
@@ -101,7 +101,7 @@ async def handle_action(update: Update, context: ContextTypes.DEFAULT_TYPE):
 # Main function to start the bot
 def main():
     # Your Telegram bot token
-    TOKEN = "7074559050:AAE8P3KU9NvpUgKFxJXgl9NOY"
+    TOKEN = "5985943689:AAETAuzwNaYpfsd1bPzV2GLlFdVvKgHsUmo"
 
     # Create Application object with your bot's token
     application = Application.builder().token(TOKEN).build()
